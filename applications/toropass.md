@@ -24,9 +24,11 @@ This project is especially relevant because the deployed reference stack is alre
 - the Flutter client package is published and can be integrated in third-party apps
 - the identity approval and callback flow works end to end with the deployed stack
 
-**Optional demo / pitch video:** To be attached in the application PR or follow-up comment.
+## 🎥 Demo Video
 
----
+[![Watch the ToroPass Toronet demo](https://img.youtube.com/vi/wK3rkSzY9C8/maxresdefault.jpg)](https://www.youtube.com/watch?v=wK3rkSzY9C8)
+
+**Demo video:** [ToroPass: Full-Stack Toronet Identity Reference Demo](https://www.youtube.com/watch?v=wK3rkSzY9C8)
 
 ## 🔍 Project Details
 
@@ -360,6 +362,3 @@ Long-term, ToroPass can become a foundational identity primitive in the Toronet 
 - the project is especially useful as an onboarding and reference artifact for Flutter developers in the Toronet ecosystem
 - a full local production-equivalent clone is possible in principle, but not the recommended first experience for reviewers because private infrastructure and secrets are intentionally not included
 - this positioning is deliberate: the project is meant to be usable today while still serving as a trustworthy source reference for future builders
-
-Potential PR follow-up attachments:
-- demo video link
