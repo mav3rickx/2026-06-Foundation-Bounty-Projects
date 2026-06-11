@@ -1,6 +1,20 @@
 # 📝 ToroPass
 
-ToroPass is a deployed full-stack Toronet identity reference project: a production-grade wallet, issuer backend, and Flutter client package that together provide a reusable "Sign in with ToroPass" identity flow for the Toronet ecosystem.
+ToroPass is a deployed full-stack Toronet identity reference project: a production-grade wallet, issuer backend, and published Flutter SDK package that together provide a reusable "Sign in with ToroPass" identity flow for the Toronet ecosystem.
+
+## 🔗 Final Submission Resource Links
+
+- **Main GitHub repository:** https://github.com/maverick0x/toropass
+- **Published Flutter SDK package:** https://pub.dev/packages/toropass_client
+- **Developer article / Dev.to post:** https://dev.to/maverick_3_0/add-sign-in-with-toropass-to-your-flutter-app-on-toronet-50eh
+- **Demo walkthrough video:** https://youtu.be/tLzgTVgMZBE
+- **X / Twitter thread:** https://x.com/i/status/2065161305883910292
+- **ToroPass Wallet APK:** https://github.com/maverick0x/toropass/releases/download/wallet-v1.0.1/toropass-wallet-v1.0.1.apk
+- **Root README:** https://github.com/maverick0x/toropass/blob/main/README.md
+- **Review Guide:** https://github.com/maverick0x/toropass/blob/main/REVIEW_GUIDE.md
+- **SDK Integration Guide:** https://github.com/maverick0x/toropass/blob/main/TOROPASS_SDK_INTEGRATION.md
+
+These links are the recommended review path: start with the repository and review guide, install the released wallet APK, inspect the published SDK package, read the Dev.to integration article, and watch the demo video for the end-to-end flow.
 
 ## 🌟 Project Overview
 
@@ -9,7 +23,7 @@ ToroPass is a hybrid decentralized identity and Identity-as-a-Service reference 
 At a high level, ToroPass gives the ecosystem:
 - a mobile wallet where users can create or validate a Toro identity
 - a secure KYC and consent flow anchored to Toronet
-- a Flutter client package that third-party Flutter developers can drop into their own apps
+- a published Flutter SDK package that third-party Flutter developers can drop into their own apps
 - a backend issuer service that acts as the trusted identity authority for the flow
 
 The project is deeply integrated with the Toronet ecosystem because Toronet wallet identity, TNS names, and Toronet-based verification are central to the user and developer experience. ToroPass is not a generic OAuth demo with Toronet branding added later. The product depends on Toronet SDK integration at its core:
@@ -21,14 +35,14 @@ The motivation for building ToroPass is simple: Toronet developers should not ha
 
 This project is especially relevant because the deployed reference stack is already usable by Flutter developers today:
 - the ToroPass Wallet APK is published through GitHub Releases
-- the Flutter client package is published and can be integrated in third-party apps
+- the Flutter SDK package is published on pub.dev and can be integrated in third-party apps
 - the identity approval and callback flow works end to end with the deployed stack
 
 ## 🎥 Demo Video
 
-[![Watch the ToroPass Toronet demo](https://img.youtube.com/vi/wK3rkSzY9C8/maxresdefault.jpg)](https://www.youtube.com/watch?v=wK3rkSzY9C8)
+[![Watch the ToroPass Toronet demo](https://img.youtube.com/vi/tLzgTVgMZBE/maxresdefault.jpg)](https://youtu.be/tLzgTVgMZBE)
 
-**Demo video:** [ToroPass: Full-Stack Toronet Identity Reference Demo](https://www.youtube.com/watch?v=wK3rkSzY9C8)
+**Demo video:** [ToroPass: Full-Stack Toronet Identity Reference Demo](https://youtu.be/tLzgTVgMZBE)
 
 ## 🔍 Project Details
 
@@ -95,7 +109,14 @@ ToroPass is already substantially implemented:
 ### Relevant Documentation / Prior Work
 
 - Monorepo source code: `https://github.com/maverick0x/toropass`
-- ToroPass root README: explains the deployed reference posture
+- Published SDK package: `https://pub.dev/packages/toropass_client`
+- Developer article: `https://dev.to/maverick_3_0/add-sign-in-with-toropass-to-your-flutter-app-on-toronet-50eh`
+- Demo walkthrough video: `https://youtu.be/tLzgTVgMZBE`
+- X / Twitter thread: `https://x.com/i/status/2065161305883910292`
+- ToroPass Wallet APK: `https://github.com/maverick0x/toropass/releases/download/wallet-v1.0.1/toropass-wallet-v1.0.1.apk`
+- Root README: `https://github.com/maverick0x/toropass/blob/main/README.md`
+- Review Guide: `https://github.com/maverick0x/toropass/blob/main/REVIEW_GUIDE.md`
+- SDK Integration Guide: `https://github.com/maverick0x/toropass/blob/main/TOROPASS_SDK_INTEGRATION.md`
 - `packages/toropass_client/README.md`: integration instructions for Flutter developers
 - `packages/toropass_client/example/README.md`: runnable example integration app
 - `context/project.md`: architecture overview
@@ -180,13 +201,11 @@ If there are related identity or onboarding efforts, ToroPass is differentiated 
 - **Contact Email:** `faroukk.bello@gmail.com`
 - **Website:** `https://github.com/maverick0x`,
 
-_NB: website will be deployed to `https://toropass.app` soon. Health check is available at **`https://api.toropass.app/api`**_
+_NB: the main public project entry point for review is the GitHub repository. The API health check is available at `https://api.toropass.app/api`._
 
 ---
 
 ## Team Members
-
-Please replace this section with the legal names of all contributors or beneficiaries.
 
 - `Farouk Bello`
 
@@ -233,6 +252,11 @@ Development has already started and the project is substantially implemented.
 ### Repository Links
 
 - Main monorepo: `https://github.com/maverick0x/toropass`
+- Published SDK package: `https://pub.dev/packages/toropass_client`
+- Wallet APK release: `https://github.com/maverick0x/toropass/releases/download/wallet-v1.0.1/toropass-wallet-v1.0.1.apk`
+- Dev.to technical article: `https://dev.to/maverick_3_0/add-sign-in-with-toropass-to-your-flutter-app-on-toronet-50eh`
+- YouTube demo: `https://youtu.be/tLzgTVgMZBE`
+- X / Twitter thread: `https://x.com/i/status/2065161305883910292`
 
 ### Current Implementation Status
 
@@ -249,14 +273,12 @@ Implemented:
 Planned but not yet completed:
 - `toropass_verifier` backend verifier package
 
-### Screenshots / Demos
+### Demos
 
-To be attached in the application PR or follow-up discussion:
-- wallet onboarding screenshots
-- KYC flow screenshots
-- consent flow screenshots
-- example client integration screenshots
-- demo video link
+Public demo and outreach artifacts:
+- Demo walkthrough video: `https://youtu.be/tLzgTVgMZBE`
+- X / Twitter thread: `https://x.com/i/status/2065161305883910292`
+- Dev.to integration article: `https://dev.to/maverick_3_0/add-sign-in-with-toropass-to-your-flutter-app-on-toronet-50eh`
 
 ---
 
@@ -271,9 +293,9 @@ The project is already in an advanced implementation state. The roadmap below is
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| 0a. | License | Add or confirm an open-source license for the project repository before final bounty closeout |
-| 0b. | Documentation | Available at [ToroPass Docs](https://github.com/maverick0x/toropass/blob/main/README.md) |
-| 0c. | Testing and Testing Guide | Available at [ToroPass Docs](https://github.com/maverick0x/toropass/blob/main/README.md) |
+| 0a. | License | Apache-2.0 |
+| 0b. | Documentation | Available at the [Root README](https://github.com/maverick0x/toropass/blob/main/README.md), [Review Guide](https://github.com/maverick0x/toropass/blob/main/REVIEW_GUIDE.md), and [SDK Integration Guide](https://github.com/maverick0x/toropass/blob/main/TOROPASS_SDK_INTEGRATION.md) |
+| 0c. | Testing and Testing Guide | Available at the [Review Guide](https://github.com/maverick0x/toropass/blob/main/REVIEW_GUIDE.md), [SDK Integration Guide](https://github.com/maverick0x/toropass/blob/main/TOROPASS_SDK_INTEGRATION.md), and [Dev.to article](https://dev.to/maverick_3_0/add-sign-in-with-toropass-to-your-flutter-app-on-toronet-50eh) |
 | 1. | ToroPass Wallet Reference Delivery | Deliver the mobile wallet with onboarding, KYC, consent management, biometric protection, and Android release packaging |
 | 2. | ToroPass Client Package Delivery | Deliver the published Flutter package, example app, callback handling, authorization flow, and profile retrieval path |
 | 3. | Issuer Backend Reference Delivery | Deliver the secure issuer backend reference implementation with wallet, token, KYC, and OAuth consent endpoints plus backend documentation |
@@ -354,6 +376,13 @@ After the bounty, I plan to continue developing ToroPass in three directions:
 Long-term, ToroPass can become a foundational identity primitive in the Toronet ecosystem: not just a single app, but a reusable identity layer and reference implementation for many applications.
 
 ---
+
+# 📄 License
+
+ToroPass is released under the **Apache License 2.0**. This permissive license is appropriate for a reusable SDK and reference implementation because it allows developers to use, modify, and distribute the code while also providing an explicit patent grant.
+
+- License: `Apache-2.0`
+
 
 # ℹ️ Additional Information
 
